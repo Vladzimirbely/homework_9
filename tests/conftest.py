@@ -1,5 +1,5 @@
 import pytest
-from selene import browser, be, have
+from selene import browser
 
 @pytest.fixture(scope='function', autouse=True)
 def open_browser():
